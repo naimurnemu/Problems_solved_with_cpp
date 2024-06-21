@@ -3,11 +3,13 @@ using namespace std;
 
 int main() 
 {
-    int num;
-    cin >> num;
+    long long int number;
+    cin >> number;
+    long long int sum;
+    sum =  (number * (number + 1))/ 2;
+  
 
-    int sum = (num * (num + 1)) / 2;
     cout << sum;
-
+    
     return 0;
 }
